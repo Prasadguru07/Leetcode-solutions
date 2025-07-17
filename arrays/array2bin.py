@@ -6,7 +6,7 @@ class TreeNode:
         self.right = right
 
 def sortedArrayToBST(nums):
-    # Base case: if the array is empty, return None
+    # Base case: if the array is empty, return None edge case init
     if not nums:
         return None
 
