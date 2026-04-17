@@ -30,3 +30,12 @@ test_strings = ["Guruprasad", "LeetCode", "Python", "12345"]
 print("\n--- Test Cases ---")
 for test in test_strings:
     print(f"'{test}' -> Brute: '{even_letters_brute_force(test)}' | Optimal: '{even_letters_optimal(test)}'")
+
+
+text = "HelloWorld"
+
+for index, letter in enumerate(text):
+    if index % 2 == 0:
+        print(letter, end="") 
+        
+# Output: Hlool
